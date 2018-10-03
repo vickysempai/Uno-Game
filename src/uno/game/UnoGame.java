@@ -19,7 +19,7 @@ public class UnoGame {
       
     public static void main(String[] args) {
         ActivarCarta reversa=new ActivarCarta(){ public void function(){ } };
-        Carta carta = new reverse(new DecoraValor(new CartaBase(),1000),reversa);
+        Carta carta = new DecoraAccion(new DecoraValor(new CartaBase(),1000),reversa);
         carta.jugarCarta();
 
     }
